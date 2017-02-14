@@ -13,7 +13,6 @@ setup(
     author_email='fries2@llnl.gov',
     license='MIT',
     packages=['image_compare'],
-    install_requires=['Jinja2'],
     scripts=["scripts/compare_images"],
     package_data={"image_compare": ["resources/image-compare.min.js", "resources/diff.html"]}
 )
