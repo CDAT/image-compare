@@ -55,6 +55,9 @@ function compare(el, one, two) {
         radio.name = "diff_type";
         radio.value = value;
         radio.onchange = update;
+        if (value === "swipe") {
+            radio.checked = true;
+        }
         label.appendChild(document.createTextNode(value));
         label.appendChild(radio);
         return label;
