@@ -7,7 +7,7 @@ This project provides a few components that combine together to provide a comman
 Available through anaconda:
 
 ```
-conda install -c uvcdat image-compare
+conda install -c uvcdat -c conda-forge image-compare
 ```
 
 ## Development:
