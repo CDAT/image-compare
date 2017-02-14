@@ -3,7 +3,7 @@ module.exports = {
     entry: "./js/index.js",
     devtool: 'source-map',
     output: {
-        path: __dirname + "/dist",
+        path: __dirname + "/jsbuild",
         filename: "image-compare.js",
         libraryTarget: "var",
         library: "ImageCompare"

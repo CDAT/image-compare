@@ -1,0 +1,16 @@
+about:
+  home: http://gitub.com/UV-CDAT/image-compare
+package:
+  name: image-compare
+  version: 1.0.0
+requirements:
+  build:
+  - python
+  - setuptools
+  - nodejs
+  run:
+  - python
+  - Jinja2
+source:
+  git_rev: v1.0.0
+  git_url: git://github.com/UV-CDAT/image-compare.git

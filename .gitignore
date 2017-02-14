@@ -1,3 +1,9 @@
 /dist
 .DS_Store
 /node_modules
+*.egg
+*.pyc
+*.egg-info
+/jsbuild
+build
+image_compare/resources/*.min.js

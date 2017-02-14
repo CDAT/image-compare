@@ -4,7 +4,8 @@
   "description": "Image Comparison Utility",
   "main": "js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --optimize-minimize --colors --progress",
+    "develop": "webpack --watch"
   },
   "author": "Sam Fries",
   "license": "ISC",

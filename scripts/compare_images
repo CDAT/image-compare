@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+import image_compare
+import argparse
+
+parser = argparse.ArgumentParser(description="Compare two images")
+parser.add_argument("image1", help="Path to the first image")
+parser.add_argument("image2", help="Path to the second image")
+
+args = parser.parse_args()
+image_compare.view_images(args.image1, args.image2)
