@@ -2,7 +2,7 @@ about:
   home: http://gitub.com/UV-CDAT/image-compare
 package:
   name: image-compare
-  version: 1.0.1
+  version: 1.0.2
 requirements:
   build:
   - python
