@@ -3,8 +3,8 @@ PKG_NAME=image-compare
 USER=uvcdat
 if [ "$TRAVIS_OS_NAME" = "linux" ]; then wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh; fi
 if [ "$TRAVIS_OS_NAME" = "osx" ]; then wget https://repo.continuum.io/miniconda/Miniconda-latest-MacOSX-x86_64.sh -O miniconda.sh; fi
-export PATH="$HOME/miniconda/bin:$PATH"
 bash miniconda.sh -b -p $HOME/miniconda
+export PATH="$HOME/miniconda/bin:$PATH"
 conda config --set always_yes yes --set changeps1 no
 conda update -y -q conda
 if [ `uname` == "Linux" ]; then
