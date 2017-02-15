@@ -1,0 +1,6 @@
+os:
+    - osx
+    - linux
+
+script:
+    - if [ $TRAVIS_BRANCH == "master" -a $TRAVIS_PULL_REQUEST == "false" ]; then bash scripts/conda_upload.sh ; fi
