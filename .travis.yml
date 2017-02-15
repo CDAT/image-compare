@@ -1,6 +1,6 @@
 os:
-    #- osx
+    - osx
     - linux
 
 script:
-    - if [ $TRAVIS_BRANCH == "autobuild" -a $TRAVIS_PULL_REQUEST == "false" ]; then bash scripts/conda_upload.sh ; fi
+    - if [ $TRAVIS_BRANCH == "master" -a $TRAVIS_PULL_REQUEST == "false" ]; then bash scripts/conda_upload.sh ; fi
