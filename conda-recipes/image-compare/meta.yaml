@@ -2,7 +2,7 @@ about:
   home: http://gitub.com/UV-CDAT/image-compare
 package:
   name: image-compare
-  version: 1.0.2
+  version: 1.0.3
 requirements:
   build:
   - python
@@ -12,5 +12,5 @@ requirements:
   - python
   - jinja2
 source:
-  git_rev: v1.0.2
+  git_rev: master
   git_url: git://github.com/UV-CDAT/image-compare.git
